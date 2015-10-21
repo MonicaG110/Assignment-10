@@ -1,0 +1,61 @@
+.container{
+	margin: 50px auto;
+	width: 770px;
+}
+
+
+.container label{
+	padding: 0px;
+	font-size: 20px;
+	margin: 0px, 0px, 5px, 0px;
+	background:#00FFFF;
+	height: 45px;
+	line-height: 40px;
+	width: 730px;
+	font-size: 16px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	font-family: sans-serif;
+
+
+}
+
+ul{
+
+	list-style: none;
+}
+
+.container ul li label:hover {
+	background:#00CCFF;
+	transition: background 0.5s, color 0.2s;
+
+}
+
+.hidden {
+	overflow: hidden;
+	transition: all .2s ease-in-out;
+   	border:1px #33FFFF solid;
+   	padding:0px;
+   	height:200px;
+
+}
+
+.unhidden {
+	overflow: visible;
+	height: 100px;
+	transition: all .2s ease-in-out;
+	border:1px #33FFFF solid;
+}
+
+
+p {
+
+	font-family: sans-serif;
+}
+
+	
+
+
+
+
